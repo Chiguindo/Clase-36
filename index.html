@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Zen</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.sound.min.js"></script>
+    <script src="p5.play.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.3.0/firebase-database.js"></script>
+
+
+    <script>
+      // Your web app's Firebase configuration (Frase inicial del código Firebase de interés )
+      // Agrega aquí 
+
+      const firebaseConfig = {
+        apiKey:"AIzaSyBnQlTm0cmPXxu5or7wpv3hHIAlA24BFCM",
+        authDomain:"juego-de-autos-1-4.firebaseapp.com",
+        projectId:"juego-de-autos-1-4",
+        storageBucket:"juego-de-autos-1-4.appspot.com",
+        messagingSenderId:"232736661706",
+        appId:"1:232736661706:web:8c40e23b6e562bfc251433" };
+
+      // Initialize Firebase (Frase final del código Firebase de interés)
+      firebase.initializeApp(firebaseConfig);
+      //Initialize Firebase
+     //  const app = initializeApp(firebaseConfig);
+    </script>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+  </head>
+  <body>
+    <script src="sketch.js"></script>
+  </body>
+</html>
